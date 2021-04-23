@@ -1,0 +1,536 @@
+/*------------------------------- Header & Banner page Css starts ----------------------*/
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    font-size: 13px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:0 6px;
+}
+
+li.nav-item a.nav-link.ph-no {
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+    flex-direction: column;
+}
+
+a.navbar-brand ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+a.navbar-brand ul li {
+    font-size: 10px;
+}
+
+ul.soc-icon {
+    display: flex;
+    list-style: none;
+}
+
+ul.navbar-nav.ml-auto.soc-icon li {
+    padding: 0 4px;
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand, .pd-0{
+    padding:0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+        background-color: #26446d !important;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+    }
+
+    .m-none{
+        display:none;
+    }
+
+    .dropdown, .dropleft, .dropright, .dropup {
+        position: relative;
+        padding: 10px 0;
+    }
+
+    li.nav-item a.nav-link.ph-no{
+        margin-left:0;
+        margin:10px 0;
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2560px) {
+    .pad-0{
+        padding: 0;
+    }
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+        flex-direction: column;
+        padding: 5px 0;
+    }
+    .pad-add{
+        border-bottom: 1px solid #000;
+    }
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top {
+        background-color: #26446d !important;
+        position: fixed;
+        width: 100%;
+        z-index: 9;
+    }
+}
+/*------------------------------- Header & Banner page Css Ended ----------------------*/
+
+/*------------------------------- Form Css starts ----------------------*/
+.confirm-form{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #343434b0;
+}
+
+.form-parent{
+    margin-top: -20%;
+    position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-image{
+        margin-top: 20%;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .form-parent {
+        margin-top: -45%;
+        position: relative;
+    }
+
+    .confirm-form {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        background: #343434b0;
+        flex-direction: column;
+    }
+
+    .search-btn{
+        width:100%;
+    }
+
+    ul.confirm-form li {
+        margin: 5px 0;
+    }
+}
+
+/*------------------------------- Form Css ended ----------------------*/
+
+/*------------------------------- Star Css started ----------------------*/
+.place_review {
+    display: inline-block;
+}
+.place_review a {
+    color: #f18602;
+}
+
+.btn-orange{
+    background:#f18602;
+    color:#fff;
+    padding: 3px 5px;
+    font-size: 15px;
+}
+
+.star1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f18602;
+    width: 50%;
+}
+
+.star2 {
+    text-align: center;
+    width: 50%;
+}
+
+.star-parent{
+    border: 1px solid #f2f2f2;
+}
+
+.pad-10{
+    padding:10px 0;
+}
+
+.head-featured-resort{
+    font-weight: bold;
+}
+
+.head-featured-resort {
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 4px 8px #000000;
+    margin-bottom: 5px;
+}
+
+button.btn.btn-orange:hover{
+    color:#fff;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .star-para1,.star-para2,.star-para3{
+        margin: 15px 0;
+    }
+}
+/*------------------------------- Star Css ended ----------------------*/
+
+/*------------------------------- Featured Resorts Css ended ----------------------*/
+.resort-head {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.resort-desc {
+    font-size: 14px;
+    margin-top: 8px;
+    line-height: 20.5px;
+    margin-bottom: 30px;
+}
+
+.read-more{
+    color:#f18602;
+    font-size: 14px;
+    border-bottom: 1px solid #f18602;
+    cursor: pointer;
+}
+
+.read-more-parent{
+    float:right;
+}
+
+.parent-box2{
+    margin: 15px 0;
+}
+
+.head-featured-vacation{
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    text-shadow: 3px 4px 8px #8c8c8c;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+section.vacation-rent {
+    margin-bottom: 40px;
+}
+/*------------------------------- Featured Resorts Css ended ----------------------*/
+
+/*--------------------------------- Form 2 Css start ---------------------------*/
+.form2-parent{
+    position: relative;
+}
+
+.confirm-form2{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 70px;
+    background: #f49c17;
+    position: absolute;
+    top: 50%;
+}
+
+.simple-text{
+    align-items: center;
+    display: inline-flex;
+}
+
+.simple-text-inner{
+    color: #fff;
+    font-weight: 600;
+}
+
+ul.confirm-form2 li {
+    padding: 0 20px;
+}
+
+.yellow-form{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+button.btn.btn-danger.wrn-btn.submit-btn{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+/*--------------------------------- Form 2 Css ended ---------------------------*/
+
+/*--------------------------------- Feature section Css start ---------------------------*/
+ul.feature {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    margin: 0;
+}
+
+.icon-txt {
+    color: #61646c;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.icon {
+    color: #f49c17;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-feature{
+    background: #ededed;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .confirm-form2 {
+        list-style: none;
+        display: block;
+        padding: 20px 20px;
+        background: #f49c17;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul.confirm-form2 li {
+        padding: 10px 20px;
+    }
+
+    .background2 {
+        display: none;
+    }
+
+    .emails{
+        padding-bottom: 200px;
+    }
+
+    ul.feature {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    ul.feature li{
+        padding: 10px 0;
+    }
+}
+/*--------------------------------- Feature section Css ended ---------------------------*/
+
+/*--------------------------------- Footer section Css start ---------------------------*/
+ul.footer-img {
+    list-style: none;
+    display: flex;
+}
+
+.vrma1{
+    width: 1490px;
+    /* filter: grayscale(100%); */
+}
+
+.vrma2{
+    width: 1100px;
+    /* filter: grayscale(100%); */
+}
+
+.vrma3{
+    width: 40%;
+    /* filter: grayscale(100%); */
+}
+
+ul.foot1,ul.foot2,ul.foot3{
+    list-style: none;
+    font-size: 12px;
+    padding: 0;
+    color:#fff;
+}
+
+.parent-list-foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footers{
+    padding-top:30px;
+    background: #000;
+}
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .parent-list-foot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul.foot1, ul.foot2, ul.foot3 {
+        list-style: none;
+        font-size: 11px;
+        padding: 0;
+        color: #fff;
+    }
+}
+/*--------------------------------- Footer section Css ended ---------------------------*/
+
+/*--------------------------------- Top-arrow section Css started ---------------------------*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+/*--------------------------------- Top-arrow section Css ended ---------------------------*/
+
+/*--------------------------------- Smooth scroll Css started ---------------------------*/
+  .html{
+    scroll-behavior: smooth;
+  }
+  body{
+    overflow-x: hidden;
+  }
+/*--------------------------------- Smooth scroll Css ended ---------------------------*/
+
+/*--------------------------------- Bug Fix start ---------------------------*/
+@media screen and (max-width: 1024px) {
+    .confirm-form {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        background: #343434b0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .confirm-form {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 80px;
+        background: #343434b0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    ul.confirm-form li {
+        margin: 10px 0;
+    }
+
+    .btn-orange {
+        background: #f18602;
+        color: #fff;
+        padding: 3px 5px;
+        font-size: 11px;
+    }
+
+    i.fa.fa-star {
+        font-size: 11px;
+    }
+
+    .resort-desc {
+        font-size: 14px;
+        margin-top: 8px;
+        line-height: 20.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        height: 80px;
+        margin-bottom: 30px;
+    }
+}
+/*--------------------------------- Bug Fix ended ---------------------------*/
+
+button.slick-next.slick-arrow {
+    height: 22px;
+    width: 12px;
+    background: transparent;
+    border-radius: 0px;
+    position: absolute;
+    top: calc(50% - 10px);
+    z-index: 1;
+    text-indent: -99999px;
+    right: -20px;
+    box-shadow: none;
+    outline: 0;
+    visibility: visible;
+    border:none;
+    }
+    button.slick-prev.slick-arrow {
+    height: 22px;
+    width: 12px;
+    background: transparent;
+    border-radius: 0px;
+    position: absolute;
+    top: calc(50% - 10px);
+    z-index: 1;
+    text-indent: -99999px;
+    left: -30px;
+    box-shadow: none;
+    outline: 0;
+    visibility: visible;
+    border:none;
+    }
+    button.slick-prev.slick-arrow:after {
+    content: '';
+    background: url(../../img/arrow.png);
+    background-size: cover;
+    width: 12px;
+    height: 22px;
+    float: left;
+    transform: rotate(180deg);
+    outline: 0;
+    }
+    button.slick-next.slick-arrow:after {
+    content: '';
+    background: url(../../img/arrow.png);
+    background-size: cover;
+    width: 12px;
+    height: 22px;
+    float: left;
+    transform: rotate(0deg);
+    outline: 0;
+    }
